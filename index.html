@@ -7,10 +7,12 @@
 <body>
 	<h1>cars</h1>
 	<ul>
-		<li><a href="image/audi.jpg">audi</a></li>
-		<li><a href="image/benz.jpg">benz</a></li>
-		<li><a href="image/gtr.jpg">gtr</a></li>
-		<li><a href="image/bmw.jpg">bmw</a></li>
+		<li><a href="image/audi.jpg" onclick="showPic(this);return false;">audi</a></li>
+		<li><a href="image/benz.jpg" onclick="showPic(this);return false;">benz</a></li>
+		<li><a href="image/gtr.jpg" onclick="showPic(this);return false;">gtr</a></li>
+		<li><a href="image/bmw.jpg" onclick="showPic(this);return false;">bmw</a></li>	
 	</ul>
+	<img id="placeholder" src="image/placeholder.jpg" alt="my image gallery" />
+	<script src="script/showPic.js"></script>
 </body>
 </html>	
