@@ -2,17 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<tittle>my gallery</tittle>
-</head>
+	<title>my gallery</title>
+	<link rel="stylesheet" href="style/layout.css" />
+ </head>
 <body>
 	<h1>cars</h1>
 	<ul>
-		<li><a href="image/audi.jpg" onclick="showPic(this);return false;">audi</a></li>
-		<li><a href="image/benz.jpg" onclick="showPic(this);return false;">benz</a></li>
-		<li><a href="image/gtr.jpg" onclick="showPic(this);return false;">gtr</a></li>
-		<li><a href="image/bmw.jpg" onclick="showPic(this);return false;">bmw</a></li>	
+		<li><a href="image/audi.jpg" tittle="a audi car" onclick="showPic(this);return false;">audi</a></li>
+		<li><a href="image/benz.jpg" tittle="a benz car" onclick="showPic(this);return false;">benz</a></li>
+		<li><a href="image/gtr.jpg" tittle="a gtr" onclick="showPic(this);return false;">gtr</a></li>
+		<li><a href="image/bmw.jpg" tittle="a bmw car" onclick="showPic(this);return false;">bmw</a></li>	
 	</ul>
 	<img id="placeholder" src="image/placeholder.jpg" alt="my image gallery" />
+	<p id="description">Choose an image.</p>
 	<script src="script/showPic.js"></script>
 </body>
 </html>	
